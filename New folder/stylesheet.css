@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  background-color: #0f1111;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 2px solid white;
+}
+.navbar {
+  max-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #0f1111;
+  color: white;
+  max-width: 100%;
+  padding: 10px;
+}
+.amzlogo img {
+  width: 113px;
+  margin-top: 10px;
+}
+.nav-location .deliver {
+  margin-left: 22px;
+  font-size: 0.85rem;
+  line-height: 5px;
+}
+
+#localogo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-search {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1380px;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.select-search {
+  background: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  max-width: 1380px;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.search-icon {
+  max-width: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #000;
+  background: #febd68;
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.endside-nav {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  font-size: 12px;
+  position: relative;
+}
+.bold,
+.bold2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+}
+.language-select {
+  position: absolute;
+  display: flex;
+  margin-left: 7rem;
+  margin-top: -13;
+}
+.cart-select {
+  font-size: 30px;
+}
+.select-lists {
+  position: absolute;
+  margin-left: 3.5rem;
+  border: none;
+  -webkit-appearance: none;
+}
+.navbar-down {
+  background-color: #1a2424;
+  width: 100%;
+  max-height: 39px;
+  color: white;
+  display: flex;
+  padding: 5px;
+  align-items: flex-end;
+  line-height: 1rem;
+  min-width: 1000px;
+  gap: 2rem;
+}
+
+.bold2 {
+  display: flex;
+}
+.navbar-down ul li {
+  list-style: none;
+}
+.container-main {
+  margin: 100px;
+}
+.main-font a {
+  font-size: 12px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.images {
+  width: 80%;
+}
+
+.grid-images {
+  display: grid;
+  margin-top: 100px;
+  position: absolute;
+  gap: 40px;
+}
+.main-image {
+  width: 600px;
+  height: 800px;
+  padding: 20px;
+  margin-left: 200px;
+  margin-bottom: 200px;
+  position: absolute;
+}
+.Section-container {
+  margin-left: 900px;
+  margin-top: -50px;
+  font-size: 20px;
+}
+.blue-color {
+  color: #007185;
+  text-decoration: none;
+  font-weight: 700;
+}
+.Deal {
+  width: 70px;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+.perecent {
+  color: rgb(224, 88, 88);
+}
+.listprice {
+  color: gray;
+  font-size: 14px;
+}
+.Details {
+  font-size: 14px;
+}
+.fees {
+  font-size: 14px;
+  color: gray;
+}
+
+.gridimages {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.img1 {
+  width: 50px;
+}
+
+.box1 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box2 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box3 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box4 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box5 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box6 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+.box7 {
+  border: 1px solid rgb(197, 193, 193);
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+}
+img {
+  cursor: pointer;
+}
+.img1:hover,
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover {
+  background-color: bisque;
+}
+
+.unordered {
+  margin-top: 300px;
+  margin-left: 10px;
+}
+
+.boxn1,
+.boxn2, .boxn3,.boxn4,.boxn4 {
+  border: 1px solid rgb(197, 193, 193);
+  border-radius: 20px;
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.boxn2 {
+  border: 1px solid gray;
+  width: 130px;
+  height: 130px;
+  text-align: center;
+}
+
+.boxn1:hover,
+.boxn2:hover, .boxn3:hover,.boxn4:hover,.boxn4:hover {
+  background-color: bisque;
+}
